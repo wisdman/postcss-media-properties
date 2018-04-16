@@ -5,7 +5,6 @@ const PATH = (...p) => path.resolve(__dirname, ...p)
 const package = require('./package.json')
 
 const { DefinePlugin } = require('webpack')
-const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
   target: 'node',
