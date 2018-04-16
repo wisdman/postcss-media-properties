@@ -4,6 +4,12 @@
 
 export class CustomProperties {
 
+  /**
+   * Custom Properties engine instance constructor
+   *
+   * @param   {postcss.Root}      style PostCSS AST root
+   * @return  {CustomProperties}        Custom Properties engine instance
+   */
   constructor(style) {
     this._style = style
     this._map = {}
@@ -16,6 +22,13 @@ export class CustomProperties {
     })
   }
 
+  /**
+   * Resolve string that includes CSS Custom Properties.
+   *
+   * @param   {String}  value   Contain the string that includes Custom Properties
+   * @param   {String}  parents Array of dependent properties names, for loop detection
+   * @return  {String}          Resolved string
+   */
   resolveValue(value, parents = []) {
 
     let str = value
