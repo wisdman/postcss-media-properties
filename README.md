@@ -1,7 +1,7 @@
 # CSS Custom Properties in `@media` and `@custom-media`
 
-[![NPM Version][npm-v-img]][npm-url]
-![License][license-img]
+[![NPM Version][npm-img]][npm-url]
+[![License][license-img]](LICENSE)
 
 [PostCSS][postcss] plugin to use CSS Custom Properties in `@media` and `@custom-media` query parameters. Use ":root" scope only!
 
