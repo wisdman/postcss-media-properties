@@ -1,0 +1,44 @@
+{
+  "name": "postcss-media-properties",
+  "version": "0.1.0",
+  "description": "PostCSS plugin to polyfill W3C CSS Custom Media Queries with W3C CSS Custom Properties supports",
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin",
+    "custom-media",
+    "media queries",
+    "custom-properties",
+    "variables"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wisdman/postcss-media-properties",
+  "bugs": "https://github.com/wisdman/postcss-media-properties/issues",
+  "repository": "github:wisdman/postcss-media-properties",
+  "author": "Dmitrii Poliakov aka Wisdman <wisdman@ajaw.it> (https://github.com/wisdman)",
+  "contributors": [
+    "Dmitrii Poliakov aka Wisdman <wisdman@ajaw.it> (https://github.com/wisdman)"
+  ],
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=6.14.1"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "devbuild": "webpack --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "postcss": "^6.0.21",
+    "postcss-calc": "^6.0.1",
+    "postcss-custom-media": "^6.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
