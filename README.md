@@ -1,6 +1,7 @@
-# PostCSS CSS Custom Properties in `@media` and `@custom-media`
+# CSS Custom Properties in `@media` and `@custom-media`
 
-[![NPM Version][npm-img]][npm-url]
+[![NPM Version][npm-v-img]][npm-url]
+![License][license-img]
 
 [PostCSS][postcss] plugin to use CSS Custom Properties in `@media` and `@custom-media` query parameters. Use ":root" scope only!
 
@@ -73,8 +74,7 @@ fs.writeFileSync('output.css', outputCss, 'utf8');
 *For more exapmles, see* [*PostCSS usage guide*][postcss]
 
 ## Non-Standard functionality
-This plugin is created in personal needs.
-Use CSS Custom Properties as part of media query not included in the standard or draft.
+This plugin is created in personal needs. Use CSS Custom Properties as part of media query not included in the standard or draft. But it's very convenient at large projects.
 
 ## [Changelog](CHANGELOG.md)
 
@@ -87,3 +87,5 @@ Use CSS Custom Properties as part of media query not included in the standard or
 
 [npm-url]: https://www.npmjs.com/package/postcss-media-properties
 [npm-img]: https://img.shields.io/npm/v/postcss-media-properties.svg
+
+[license-img]: https://img.shields.io/github/license/wisdman/postcss-media-properties.svg
