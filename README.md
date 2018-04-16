@@ -34,7 +34,7 @@
 
 ## Install
 
-`npm install postcss-simple-media --save-dev`
+`npm install postcss-media-properties --save-dev`
 
 ## Usage
 
