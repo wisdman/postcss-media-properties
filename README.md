@@ -78,7 +78,15 @@ This plugin is created in personal needs. Use CSS Custom Properties as part of m
 
 ## [Changelog](CHANGELOG.md)
 
-## [License](LICENSE)
+## Feedbacks
+
+Suggestions are welcome on [GitHub issue tracker](https://github.com/wisdman/postcss-media-properties/issues)
+
+## Donation
+
+* PayPal: https://www.paypal.me/wisdman
+* BTC: 1862ZyKQLpkrnHC5zN2Xm8UtwW7PEHnFTW
+* ETH: 0x1572F3A21487eDD3b88811F87520e8cadB1ee136
 
 [postcss]:              https://github.com/postcss/postcss
 [postcss-calc]:         https://github.com/postcss/postcss-calc
