@@ -85,6 +85,7 @@ Suggestions are welcome on [GitHub issue tracker](https://github.com/wisdman/pos
 ## Donation
 
 * PayPal: https://www.paypal.me/wisdman
+* YandexMoney: https://yasobe.ru/na/wisdman
 * BTC: 1862ZyKQLpkrnHC5zN2Xm8UtwW7PEHnFTW
 * ETH: 0x1572F3A21487eDD3b88811F87520e8cadB1ee136
 
